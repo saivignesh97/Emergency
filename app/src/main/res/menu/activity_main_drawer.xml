@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/edit"
+            android:icon="@drawable/pencil"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/mapdrawer"
+            android:title="Show my location"
+            android:icon="@drawable/maploc"/>
+        <item
+            android:id="@+id/battery"
+            android:title="Start Battery Notification"
+            android:icon="@drawable/battery"/>
+        <item
+            android:id="@+id/batterystop"
+            android:title="Stop Battery Notification"
+            android:icon="@drawable/battery"/>
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/information"
+            android:title="About"/>
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/signout"
+            android:title="Logout" />
+
+    </group>
+
+
+
+</menu>

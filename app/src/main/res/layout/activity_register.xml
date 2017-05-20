@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    tools:context="com.emergency.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Emergency Help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="55dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:id="@+id/tv" />
+
+
+        <EditText
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="#ff0000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ff0000"
+            android:hint="Your Name"
+            android:drawableLeft="@drawable/male"
+
+            android:id="@+id/user_name" />
+
+
+        <EditText
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ff0000"
+
+            android:hint="Your Mail ID"
+            android:drawableLeft="@drawable/mail"
+            android:textColorHint="#ff0000"
+            android:ems="10"
+            android:id="@+id/user_mail" />
+
+        <EditText
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:textColorHint="#ff0000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ff0000"
+            android:drawableLeft="@drawable/phone"
+            android:hint="Your Phone Number"
+            android:id="@+id/user_phone" />
+
+
+        <EditText
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:text=""
+            android:hint="Password(Min 6 Chars)"
+            android:drawableLeft="@drawable/password"
+            android:textColorHint="#ff0000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#ff0000"
+
+            android:id="@+id/pass" />
+
+        <CheckBox
+            android:text="Show Password"
+            android:layout_marginLeft="45dp"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb1" />
+
+        <EditText
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:drawableLeft="@drawable/password"
+
+            android:textColorHint="#ff0000"
+            android:textColor="#ff0000"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+
+            android:id="@+id/cpass" />
+
+        <CheckBox
+            android:text="Show Password"
+            android:layout_marginLeft="45dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb2" />
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:hint="Emergency Person 1"
+            android:drawableLeft="@drawable/male"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColorHint="#ff0000"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:singleLine="true"
+            android:textColor="#ff0000" />
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:text="Emergency Number 1"
+            android:drawableLeft="@drawable/phone"
+
+
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:singleLine="true"
+            android:textColor="#ff0000" />
+        <Button
+            android:text="Set Contact 1"
+            android:layout_width="134dp"
+            android:background="@drawable/button_bg"
+            android:layout_marginLeft="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/choose1" />
+
+
+        <EditText
+            android:id="@+id/name2"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:hint="Emergency Person 2"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/male"
+
+            android:maxLines="1"
+            android:textColorHint="#ff0000"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:singleLine="true"
+            android:textColor="#ff0000" />
+        <TextView
+            android:id="@+id/num2"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/phone"
+            android:text="Emergency Number 2"
+
+
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:singleLine="true"
+            android:textColor="#ff0000" />
+        <Button
+            android:text="Set Contact 2"
+            android:background="@drawable/button_bg"
+
+            android:layout_width="134dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/choose2" />
+
+        <EditText
+            android:id="@+id/name3"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:hint="Emergency Person 3"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/male"
+
+            android:maxLines="1"
+            android:textColorHint="#ff0000"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:singleLine="true"
+            android:textColor="#ff0000" />
+
+        <TextView
+            android:id="@+id/num3"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/phone"
+
+            android:text="Emergency Number 3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:singleLine="true"
+            android:textColor="#ff0000" />
+        <Button
+            android:text="Set Contact 3"
+            android:layout_width="134dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+
+            android:id="@+id/choose3" />
+
+
+        <Button
+            android:text="SIGNUP"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#ff0000"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:elevation="10dp"
+            android:id="@+id/signup_btn"
+            android:layout_weight="0.07" />
+
+
+    </LinearLayout>
+</ScrollView>
